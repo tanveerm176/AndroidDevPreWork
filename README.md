@@ -17,7 +17,9 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [X] Text of button changes when clicked by user
-* [X] Second click changes the image displayed with an additional Toast message
+* [X] Second click changes the image displayed with an additional Toast message and button text change
+* [X] Additional clicks output final Toast message with starting image
+* [X] App has a small narrative for the user 
 
 ## Video Walkthrough
 
@@ -34,8 +36,9 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Describe any challenges encountered while building the app.  
 A lot of the documentation for specific functionality is written in Javascript, making it difficult to translate to Kotlin
+
 
 ## License
 
