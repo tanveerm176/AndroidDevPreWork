@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="96dp"
-        android:text="@string/Mo_intro"
+        android:text="@string/myIntro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/catImageView" />
@@ -33,7 +33,6 @@
         android:layout_marginTop="72dp"
         app:srcCompat="@drawable/cat_eating"
         android:scaleType="centerCrop"
-
         android:contentDescription="@string/imageDescription" />
 
     <Button
@@ -41,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="108dp"
-        android:text="@string/button_text"
+        android:text="@string/buttonText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/introTextView" />
