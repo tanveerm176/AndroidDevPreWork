@@ -37,6 +37,7 @@ GIF created with ScreenToGif
 ## Notes
 
 Describe any challenges encountered while building the app.
+
 Learning how to translate Javascript to Kotlin when looking for help on implementing specific features
 
 ## License
