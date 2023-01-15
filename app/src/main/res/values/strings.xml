@@ -2,8 +2,11 @@
     <string name="app_name">Cat\'s Secret</string>
     <string name="imageDescription">picture of black and white cat facing the camera</string>
     <string name="myIntro">Hi CodePath! My name is Mo, I love writing code, and my cat Zoomi (pictured above)</string>
-    <string name="buttonText">Here\'s a Secret</string>
-    <string name="toastText">He\'s lying, I write the code for my human /ᐠᵕ ‸ᵕᐟ\\ﾉ</string>
+    <string name="buttonText1">Here\'s a Secret</string>
+    <string name="buttonText2">Here\'s the Proof</string>
+    <string name="toastText1">He\'s lying, I write the code for my human /ᐠᵕ ‸ᵕᐟ\\ﾉ</string>
+    <string name="toastText2">Look at me: hard at work</string>
+
 
 
 </resources>

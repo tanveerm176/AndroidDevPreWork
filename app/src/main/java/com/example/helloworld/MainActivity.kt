@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
@@ -12,17 +13,31 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val button = findViewById<Button>(R.id.helloButton)
+        val img = findViewById<ImageView>(R.id.catImageView)
+        var clickCount = 0
 
         button.setOnClickListener {
+            clickCount+=1
+            if(clickCount==1){
+                Log.v("button", "button was clicked!")
 
-            Log.v("button", "button was clicked")
-            val toastMessage = R.string.toastText
-            val duration = Toast.LENGTH_LONG
+                val toastMessage1 = R.string.toastText1
+                val duration = Toast.LENGTH_LONG
+                Toast.makeText(this, toastMessage1, duration).show()
 
-            Toast.makeText(this, toastMessage, duration).show()
+                button.setText(R.string.buttonText2)
+//                clickCount+=1
+            }
 
+            if(clickCount==2){
+                img.setImageResource(R.drawable.cat_coding)
 
+                val toastMessage2 = R.string.toastText2
+                val duration = Toast.LENGTH_LONG
+                Toast.makeText(this, toastMessage2, duration).show()
+            }
         }
+
 
     }
 }
