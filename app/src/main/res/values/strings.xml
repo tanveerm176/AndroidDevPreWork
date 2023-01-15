@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">HelloWorld</string>
+    <string name="app_name">Cat\'s Secret</string>
     <string name="imageDescription">picture of black and white cat facing the camera</string>
     <string name="myIntro">Hi CodePath! My name is Mo, I love writing code, and my cat Zoomi (pictured above)</string>
-    <string name="buttonText">Hello World</string>
-    <string name="toastText">Hello to you as well!</string>
+    <string name="buttonText">Here\'s a Secret</string>
+    <string name="toastText">He\'s lying, I write the code for my human /ᐠᵕ ‸ᵕᐟ\\ﾉ</string>
 
 
 </resources>

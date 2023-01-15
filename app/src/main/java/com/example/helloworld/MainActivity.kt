@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.Toast
-import com.example.helloworld.R.string.toastText
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,8 +16,8 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
 
             Log.v("button", "button was clicked")
-            val toastMessage = toastText
-            val duration = Toast.LENGTH_SHORT
+            val toastMessage = R.string.toastText
+            val duration = Toast.LENGTH_LONG
 
             Toast.makeText(this, toastMessage, duration).show()
 
